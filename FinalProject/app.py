@@ -13,12 +13,12 @@ app.secret_key = "this is a secret key"
 
 # MySQL connection setup
 connection = mysql.connector.connect(
-    host='localhost',
-    port=3306,
-    database='mysql',
-    user='root',
-    password='antoine',
-    auth_plugin='mysql_native_password',
+    host='*****',
+    port=*****,
+    database='****',
+    user='*****',
+    password='*****',
+    auth_plugin='******',
     use_pure=True
 )
 cursor = connection.cursor()
@@ -72,12 +72,12 @@ def feedback():
 
         # Store the feedback in the MySQL database
         connection = mysql.connector.connect(
-            host='localhost',
-            port=3306,
-            database='mysql',
-            user='root',
-            password='antoine',
-            auth_plugin='mysql_native_password',
+            host='*****',
+            port=*****,
+            database='****',
+            user='*****',
+            password='*****',
+            auth_plugin='******',
             use_pure=True
         )
         cursor = connection.cursor()
